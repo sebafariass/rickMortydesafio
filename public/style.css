@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wallpaper {
+    background-image: url(universo.jpg);
+    
+
+}
+
+.titulo {
+    color: wheat;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Kufam', cursive;
+}
+
+h2 {
+    font-family: 'Kufam', cursive;
+}
+
+.info_mostrando {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.nombre {
+    color: gray;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.imagen {
+    border-radius: 40%;
+    height: 150px;
+    margin: 20px;
+}
+.imagen:hover {
+	transform: rotateY(180deg)
+   
+}
